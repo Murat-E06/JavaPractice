@@ -20,7 +20,7 @@ public class Shape {
         this.name = name;
     }
 
-    public Shape(String name) {//this i iptal ettik
+    public Shape(String name) {// constructor. this i iptal ettik
         setName(name);
     }
 
@@ -35,7 +35,7 @@ public class Shape {
     public String toString() {
         return "Shape{" +
               //  "name='" + name + '\'' +
-              //  ", area='" + area() + '\'' +//ilave ettik
+              //  ", area='" + area() + '\'' +//ilave ettik ama diğer klasların ayrı ayrı toString methodları ol.için yazmasak da oluyor
               //  ", perimeter='" + perimeter() + '\'' +
                 '}';
     }
