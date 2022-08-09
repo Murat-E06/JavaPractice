@@ -10,7 +10,7 @@ public class FreqOfString {
             String sentence = scan.nextLine();
 
             System.out.println("input second value");//ali
-            String lookFor = scan.next();
+            String lookFor = scan.nextLine();
             scan.close();
 
             int frequency = 0;
@@ -24,3 +24,55 @@ public class FreqOfString {
             System.out.println(frequency);//6
         }
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
